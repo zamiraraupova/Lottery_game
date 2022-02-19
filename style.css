@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(to right, lightblue, rgb(98, 98, 203));
+    color: navy;
+    font-family: fantasy;
+    font-size: larger;
+    font-weight: bold;
+
+}
+h1{
+    margin-top: 50px;
+}
+
+button{
+    padding: 5px;
+    border-radius: 5px;
+    width: 100px;
+    outline: none;
+    border: none;
+    background-color: rgb(48, 52, 165);
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+    background-color: cornflowerblue;
+    color: blue;
+}
+
+img{
+    width: 40%;
+    align-content: center;
+    margin-top: 100px;
+}
